@@ -1,0 +1,46 @@
+CREATE DATABASE IF NOT EXISTS registrosrest;
+
+use registrosrest;
+
+CREATE TABLE IF NOT EXISTS roles(
+  id_rol INT AUTO_INCREMENT NOT NULL,
+  tipo_rol VARCHAR(13),
+  PRIMARY KEY (id_rol)
+);
+
+CREATE TABLE IF NOT EXISTS usuarios(
+  id_usuario INT AUTO_INCREMENT NOT NULL,
+  PRIMARY KEY (id_usuario),
+  rol_id INT,
+  FOREIGN KEY (rol_id) REFERENCES roles(id_rol) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS alumnos(
+  id_alumno INT AUTO_INCREMENT NOT NULL,
+  nombre_alumno VARCHAR(150) NOT NULL,
+  apellido_p VARCHAR(80) NOT NULL,
+  apellido_m VARCHAR(80) NOT NULL,
+  telefono_1 VARCHAR(10) NOT NULL,
+  telefono_2 VARCHAR(10) NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+  update_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+  PRIMARY KEY (id_alumno)
+);
+
+CREATE TABLE IF NOT EXISTS cursos(
+  id_curso INT AUTO_INCREMENT NOT NULL,
+  nombre_curso VARCHAR(100) NOT NULL,
+  descripsion VARCHAR(255) NOT NULL,
+  hora_inicio TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+  hora_fin TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+  PRIMARY KEY (id_curso)
+);
+
+CREATE TABLE IF NOT EXISTS cursos_alumnos(
+  id_registro INT AUTO_INCREMENT NOT NULL,
+  PRIMARY KEY (id_registro),
+  alumno_id INT,
+  curso_id INT,
+  CONSTRAINT fk_curso_alumno_curso FOREIGN KEY (curso_id) REFERENCES cursos(id_curso) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_curso_alumno_alumno FOREIGN KEY (alumno_id) REFERENCES alumnos(id_alumno) ON DELETE CASCADE ON UPDATE CASCADE
+);
