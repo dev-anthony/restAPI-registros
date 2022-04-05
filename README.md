@@ -18,3 +18,6 @@
   <li>Roles</li>
   <li>Usuarios</li>
 </ul>
+
+### JWT
+<p> Cuenta con JWT para proteger las rutas </p>
