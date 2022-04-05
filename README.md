@@ -20,7 +20,7 @@
 </ul>
 
 ### JWT
-<p> Cuenta con JWT para proteger las rutas </p>
+<p> Se integró JWT para autenticar el login y los roles </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/83378042/161831227-90d6233f-58d2-4317-bdc5-5af7980a84f8.png" width="300px" height="150px">
 </p>
