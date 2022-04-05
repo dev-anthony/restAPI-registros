@@ -22,5 +22,5 @@
 ### JWT
 <p> Cuenta con JWT para proteger las rutas </p>
 <p align="center">
-![jwt width ="100px"](https://user-images.githubusercontent.com/83378042/161831227-90d6233f-58d2-4317-bdc5-5af7980a84f8.png)
+![jwt](https://user-images.githubusercontent.com/83378042/161831227-90d6233f-58d2-4317-bdc5-5af7980a84f8.png =100x20)
 </p>
