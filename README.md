@@ -13,8 +13,8 @@
 
 <p> Backend para el registro de:</p>
 <ul>
-  *<li>Alumnos</li>
-  *<li>Cursos</li>
-  *<li>Roles</li>
-  *<li>Usuarios</li>
+  <li>Alumnos</li>
+  <li>Cursos</li>
+  <li>Roles</li>
+  <li>Usuarios</li>
 </ul>
