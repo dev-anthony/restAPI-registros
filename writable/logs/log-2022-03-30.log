@@ -1,0 +1,210 @@
+CRITICAL - 2022-03-30 23:16:17 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:17:52 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:17:54 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:19:06 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:19:08 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:19:12 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:19:21 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:19:25 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:21:34 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:22:00 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:23:18 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:23:21 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:23:32 --> Call to a member function getName() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:24:56 --> Call to a member function move() on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:29:37 --> Attempt to assign property "tipo_rol" on null
+#0 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-03-30 23:29:59 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, App\Models\RolModel given, called in D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php on line 53
+#0 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(53): CodeIgniter\Validation\Validation->run(Object(App\Models\RolModel), 'rol_validation')
+#1 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-03-30 23:32:56 --> rol is not a validation rules group.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('rol')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('rol')
+#2 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Validation\Validation->run(Array, 'rol')
+#3 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#8 {main}
+CRITICAL - 2022-03-30 23:34:35 -->  is not a valid rule.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tipo_rol', 'tipo_rol', NULL, Array, Array)
+#2 D:\codeigniter4\restAPI-registros\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Controller->validate(Array)
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#6 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-03-30 23:35:04 -->  is not a valid rule.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tipo_rol', 'tipo_rol', NULL, Array, Array)
+#2 D:\codeigniter4\restAPI-registros\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Controller->validate(Array)
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#6 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-03-30 23:35:59 -->  is not a valid rule.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tipo_rol', 'tipo_rol', NULL, Array, Array)
+#2 D:\codeigniter4\restAPI-registros\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Controller->validate(Array)
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#6 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-03-30 23:37:30 -->  is not a valid rule.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tipo_rol', 'tipo_rol', NULL, Array, Array)
+#2 D:\codeigniter4\restAPI-registros\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Controller->validate(Array)
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#6 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-03-30 23:46:16 -->  is not a valid rule.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tipo_rol', 'tipo_rol', NULL, Array, Array)
+#2 D:\codeigniter4\restAPI-registros\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Controller->validate(Array)
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#6 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-03-30 23:46:31 -->  is not a valid rule.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tipo_rol', 'tipo_rol', 'administrador', Array, Array)
+#2 D:\codeigniter4\restAPI-registros\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Controller->validate(Array)
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#6 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-03-30 23:46:42 -->  is not a valid rule.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tipo_rol', 'tipo_rol', 'administrador', Array, Array)
+#2 D:\codeigniter4\restAPI-registros\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(46): CodeIgniter\Controller->validate(Array)
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#6 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-03-30 23:48:55 --> rol is not a validation rules group.
+#0 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('rol')
+#1 D:\codeigniter4\restAPI-registros\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('rol')
+#2 D:\codeigniter4\restAPI-registros\app\Controllers\API\RolesController.php(47): CodeIgniter\Validation\Validation->run(Array, 'rol')
+#3 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#4 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#5 D:\codeigniter4\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\codeigniter4\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\codeigniter4\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#8 {main}

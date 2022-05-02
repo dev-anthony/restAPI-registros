@@ -4,12 +4,12 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class RolModel extends Model
+class UsuarioModel extends Model
 {
-  protected $table = 'roles';
-  protected $primaryKey = 'id_rol';
+  protected $table = 'usuarios';
+  protected $primaryKey = 'id_usuario';
   protected $returnType = 'array';
-  protected $allowedFields = ['tipo_rol', 'avatar'];
+  protected $allowedFields = ['nombre', 'nombre_usuario', 'password', 'rol_id'];
 
   // Control de fechas de auditacion
   protected $useTimestamps = false;

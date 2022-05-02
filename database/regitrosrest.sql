@@ -1,15 +1,21 @@
-CREATE DATABASE IF NOT EXISTS registrosrest;
+DROP DATABASE IF EXISTS casadecultura;
 
-use registrosrest;
+CREATE DATABASE IF NOT EXISTS casadecultura;
+
+use casadecultura;
 
 CREATE TABLE IF NOT EXISTS roles(
   id_rol INT AUTO_INCREMENT NOT NULL,
-  tipo_rol VARCHAR(13),
+  tipo_rol VARCHAR(13) NOT NULL,
+  avatar VARCHAR(255),
   PRIMARY KEY (id_rol)
 );
 
 CREATE TABLE IF NOT EXISTS usuarios(
   id_usuario INT AUTO_INCREMENT NOT NULL,
+  nombre VARCHAR(50) NOT NULL,
+  nombre_usuario VARCHAR(50) NOT NULL,
+  password VARCHAR(50) NOT NULL,
   PRIMARY KEY (id_usuario),
   rol_id INT,
   FOREIGN KEY (rol_id) REFERENCES roles(id_rol) ON DELETE CASCADE ON UPDATE CASCADE
@@ -33,6 +39,7 @@ CREATE TABLE IF NOT EXISTS cursos(
   descripsion VARCHAR(255) NOT NULL,
   hora_inicio TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
   hora_fin TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+  imagen VARCHAR(255) NOT NULL,
   PRIMARY KEY (id_curso)
 );
 
