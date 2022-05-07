@@ -42,25 +42,13 @@ class Validation
   //--------------------------------------------------------------------
 
   public $rol_validation = [
-    'tipo_rol' => [
+    // validadcion para rol con errores
+    'type_rol' => [ //Aquí tiene que ir el nombre del campo del que tienes en la base de datos
       'label' => 'Rol',
-      'rules' => 'required|is_unique[roles.tipo_rol]|min_length[3]|max_length[13]|trim|alpha',
+      'rules' => 'required|is_unique[rol.type_rol]',
       'errors' => [
-        'required' => 'El campo rol es obligatorio',
-        'is_unique' => 'El rol ya existe',
-        'min_length' => 'El rol debe tener al menos 3 caracteres',
-        'max_length' => 'El rol debe tener como maximo 20 caracteres',
-        'alpha' => 'El rol debe contener solo letras',
-      ],
-    ],
-    'avatar' => [
-      'label' => 'Avatar',
-      'rules' => 'uploaded[avatar]|mime_in[avatar,image/jpg,image/jpeg,image/png]|max_size[avatar,5120]',
-      'errors' => [
-        'uploaded' => 'El archivo no se pudo subir',
-        'mime_in' => 'El archivo debe ser una imagen',
-        'max_size' => 'El archivo debe ser menor a 5MB',
-
+        'required' => 'El campo {field} es requerido',
+        'is_unique' => 'El {field} ya existe',
       ],
     ],
   ];
@@ -117,6 +105,37 @@ class Validation
         'min_length' => 'El telefono debe tener al menos 7 caracteres',
         'max_length' => 'El telefono debe tener como maximo 10 caracteres',
         'numeric' => 'El telefono solo puede contener numeros sin espacios',
+      ],
+    ],
+  ];
+
+  public $usuario_validation = [
+    'name' => [
+      'label' => 'Nombre',
+      'rules' => 'required|min_length[3]|max_length[50]',
+      'errors' => [
+        'required' => 'El campo {field} es requerido',
+        'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
+        'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
+      ],
+    ],
+    'username' => [
+      'label' => 'Usuario',
+      'rules' => 'required|is_unique[user.username]|min_length[3]|max_length[50]|trim',
+      'errors' => [
+        'required' => 'El campo {field} es requerido',
+        'is_unique' => 'El {field} ya existe',
+        'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
+        'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
+      ],
+    ],
+    'password' => [
+      'label' => 'Contraseña',
+      'rules' => 'required|min_length[3]|max_length[100]|trim',
+      'errors' => [
+        'required' => 'El campo {field} es requerido',
+        'min_length' => 'La {field} debe tener al menos {param} caracteres',
+        'max_length' => 'La {field} debe tener como maximo {param} caracteres',
       ],
     ],
   ];

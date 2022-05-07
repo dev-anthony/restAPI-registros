@@ -893,3 +893,211 @@ CRITICAL - 2022-05-02 16:26:43 --> CodeIgniter\Validation\Validation::run(): Arg
 #4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
 #6 {main}
+CRITICAL - 2022-05-02 17:29:00 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 47
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(47): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:30:25 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:31:05 --> Call to a member function getTempName() on null
+#0 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-02 17:31:50 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:32:08 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:32:48 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:34:14 --> The framework needs the following extension(s) installed and loaded: GD.
+#0 D:\codeigniter4\casa-de-cultura\system\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+#1 D:\codeigniter4\casa-de-cultura\system\Config\Services.php(312): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+#2 D:\codeigniter4\casa-de-cultura\system\Config\BaseService.php(248): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+#3 D:\codeigniter4\casa-de-cultura\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('image', Array)
+#4 D:\codeigniter4\casa-de-cultura\system\Config\Services.php(305): CodeIgniter\Config\BaseService::getSharedInstance('image', NULL, NULL)
+#5 D:\codeigniter4\casa-de-cultura\system\Config\BaseService.php(248): CodeIgniter\Config\Services::image()
+#6 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(18): CodeIgniter\Config\BaseService::__callStatic('image', Array)
+#7 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(802): App\Controllers\API\RolesController->__construct()
+#8 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#9 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#12 {main}
+CRITICAL - 2022-05-02 17:34:31 --> The framework needs the following extension(s) installed and loaded: GD.
+#0 D:\codeigniter4\casa-de-cultura\system\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+#1 D:\codeigniter4\casa-de-cultura\system\Config\Services.php(312): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+#2 D:\codeigniter4\casa-de-cultura\system\Config\BaseService.php(248): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+#3 D:\codeigniter4\casa-de-cultura\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('image', Array)
+#4 D:\codeigniter4\casa-de-cultura\system\Config\Services.php(305): CodeIgniter\Config\BaseService::getSharedInstance('image', NULL, NULL)
+#5 D:\codeigniter4\casa-de-cultura\system\Config\BaseService.php(248): CodeIgniter\Config\Services::image()
+#6 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(18): CodeIgniter\Config\BaseService::__callStatic('image', Array)
+#7 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(802): App\Controllers\API\RolesController->__construct()
+#8 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#9 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#12 {main}
+CRITICAL - 2022-05-02 17:39:55 --> Call to a member function getTempName() on null
+#0 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-02 17:40:32 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 49
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(49): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:41:19 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:42:14 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:42:44 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:43:10 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:43:21 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:43:32 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:44:14 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 47
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(47): CodeIgniter\Validation\Validation->run(Object(stdClass), 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:45:55 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 47
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(47): CodeIgniter\Validation\Validation->run(Object(stdClass), 'roles/create')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:46:07 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 47
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(47): CodeIgniter\Validation\Validation->run(Object(stdClass), 'roles/create')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:47:34 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, string given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run('admin', 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:50:00 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, string given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run('admin', 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:50:41 --> Cannot access offset of type string on string
+#0 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-02 17:50:51 --> Cannot access offset of type string on string
+#0 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-02 17:51:41 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, string given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run('admin', 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2022-05-02 17:51:44 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, string given, called in D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php on line 48
+#0 D:\codeigniter4\casa-de-cultura\app\Controllers\API\RolesController.php(48): CodeIgniter\Validation\Validation->run('admin', 'rol_validation')
+#1 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(825): App\Controllers\API\RolesController->create()
+#2 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RolesController))
+#3 D:\codeigniter4\casa-de-cultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\codeigniter4\casa-de-cultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\codeigniter4\casa-de-cultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#6 {main}

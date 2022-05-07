@@ -9,7 +9,7 @@ class UsuarioModel extends Model
   protected $table = 'usuarios';
   protected $primaryKey = 'id_usuario';
   protected $returnType = 'array';
-  protected $allowedFields = ['nombre', 'nombre_usuario', 'password', 'rol_id'];
+  protected $allowedFields = ['name', 'username', 'password', 'rol_id'];
 
   // Control de fechas de auditacion
   protected $useTimestamps = false;
