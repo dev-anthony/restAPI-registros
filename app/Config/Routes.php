@@ -31,7 +31,8 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-// $routes->get('/', 'Home::index');
+$routes->get('/', 'Home::index');
+$routes->post('/auth/login', 'Auth::login');
 
 // Grupo de rutas para roles
 // http://localhost:8080/api/roles

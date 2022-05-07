@@ -53,3 +53,12 @@ CREATE TABLE IF NOT EXISTS cursos_alumnos(
   CONSTRAINT fk_curso_alumno_curso FOREIGN KEY (curso_id) REFERENCES cursos(id_curso) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT fk_curso_alumno_alumno FOREIGN KEY (alumno_id) REFERENCES alumnos(id_alumno) ON DELETE CASCADE ON UPDATE CASCADE
 );
+
+insert into roles (tipo_rol) values ('admin');
+insert into roles (tipo_rol) values ('usuario');
+
+insert into usuarios (name, username, password, rol_id) values ('anthony solano', 'anthonyadmin', '$2y$10$GARfGt0qqIo08fFTXElBLuaoXi3W2OTCAZ6.4DTNs4cPb7kJkZZhW', 1);
+insert into usuarios (name, username, password, rol_id) values ('Erika De La Zeta', 'Ekzetita', '$2y$10$GARfGt0qqIo08fFTXElBLuaoXi3W2OTCAZ6.4DTNs4cPb7kJkZZhW', 2);
+insert into usuarios (name, username, password, rol_id) values ('Brisa Tellos', 'BrisTellos', '$2y$10$GARfGt0qqIo08fFTXElBLuaoXi3W2OTCAZ6.4DTNs4cPb7kJkZZhW', 2);
+
+-- adios123 = $2y$10$GARfGt0qqIo08fFTXElBLuaoXi3W2OTCAZ6.4DTNs4cPb7kJkZZhW

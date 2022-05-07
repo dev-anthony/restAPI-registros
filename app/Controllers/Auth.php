@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Controllers\API;
+namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\UsuarioModel;
 use CodeIgniter\API\ResponseTrait;
 use Config\Services;
-use \Firebase\JWT\JWT;
+use Firebase\JWT\JWT;
 
 class Auth extends BaseController
 {
@@ -58,7 +58,7 @@ class Auth extends BaseController
         // 'id' => $user['id'],
         'name' => $user['name'],
         'username' => $user['username'],
-        'role' => $user['rol_id'],
+        'rol' => $user['rol_id'],
       ],
     ];
 
