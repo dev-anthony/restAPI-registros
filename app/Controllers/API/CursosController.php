@@ -2,14 +2,14 @@
 
 namespace App\Controllers\API;
 
-use App\Models\CursoAlumnoModel;
+use App\Models\CursoModel;
 use CodeIgniter\RESTful\ResourceController;
 
 class CursosController extends ResourceController
 {
   public function __construct()
   {
-    $this->model = $this->setModel(new CursoAlumnoModel());
+    $this->model = $this->setModel(new CursoModel());
     // inyeccion de la libreria como servvicio nombrado validation
     $this->validation = \Config\Services::validation();
   }

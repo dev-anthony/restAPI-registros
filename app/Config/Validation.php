@@ -143,42 +143,38 @@ class Validation
   public $curso_validation = [
     'nombre_curso' => [
       'label' => 'Nombre',
-      'rules' => 'required|min_length[3]|max_length[100]|trim|alpha_space',
+      'rules' => 'required|min_length[3]|max_length[100]|trim',
       'errors' => [
         'required' => 'El campo {field} es requerido',
         'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
         'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
-        'alpha' => 'El campo {field} solo puede contener letras y espacios',
       ],
     ],
-    'descripcion' => [
-      'label' => 'Descripcion',
-      'rules' => 'required|min_length[3]|max_length[100]|trim|alpha_space',
+    'descripsion' => [
+      'label' => 'Descripsion',
+      'rules' => 'required|min_length[3]|max_length[255]|trim',
       'errors' => [
         'required' => 'El campo {field} es requerido',
         'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
         'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
-        'alpha' => 'El campo {field} solo puede contener letras y espacios',
       ],
     ],
     'hora_inicio' => [
       'label' => 'Hora de inicio',
-      'rules' => 'required|min_length[3]|max_length[100]|trim|alpha_space',
+      'rules' => 'required|min_length[3]|max_length[20]|trim|',
       'errors' => [
         'required' => 'El campo {field} es requerido',
         'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
         'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
-        'alpha' => 'El campo {field} solo puede contener letras y espacios',
       ],
     ],
     'hora_fin' => [
       'label' => 'Hora de fin',
-      'rules' => 'required|min_length[3]|max_length[100]|trim|alpha_space',
+      'rules' => 'required|min_length[3]|max_length[20]|trim',
       'errors' => [
         'required' => 'El campo {field} es requerido',
         'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
         'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
-        'alpha' => 'El campo {field} solo puede contener letras y espacios',
       ],
     ],
   ];

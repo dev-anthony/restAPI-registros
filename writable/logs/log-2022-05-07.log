@@ -1,0 +1,2 @@
+ERROR - 2022-05-07 19:58:21 --> Cannot add or update a child row: a foreign key constraint fails (`casadecultura`.`cursos`, CONSTRAINT `fk_cursos_alumnos` FOREIGN KEY (`alumno_id`) REFERENCES `alumnos` (`id_alumno`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-05-07 19:58:47 --> Cannot add or update a child row: a foreign key constraint fails (`casadecultura`.`cursos`, CONSTRAINT `fk_cursos_alumnos` FOREIGN KEY (`alumno_id`) REFERENCES `alumnos` (`id_alumno`) ON DELETE CASCADE ON UPDATE CASCADE)
