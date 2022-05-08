@@ -5,7 +5,7 @@ namespace App\Controllers\API;
 use CodeIgniter\RESTful\ResourceController;
 use App\Models\CursoAlumnoModel;
 
-class CursosAlumnosController extends ResourceController
+class RegistrosController extends ResourceController
 {
   public function __construct()
   {

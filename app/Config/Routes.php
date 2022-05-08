@@ -77,6 +77,29 @@ $routes->group('api/usuarios', ['namespace' => 'App\Controllers\API', 'filter' =
   // http://localhost:8080/api/usuarios/1 --> DELETE
   $routes->delete('delete/(:num)', 'UsuariosController::delete/$1');
 });
+
+// http://localhost:8080/api/cursos
+$routes->group('api/cursos', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function ($routes) {
+  // http://localhost:8080/api/cursos --> GET
+  $routes->get('', 'CursosController::index');
+  // http://localhost:8080/api/cursos/1 --> SHOW
+  $routes->get('(:num)', 'CursosController::show/$1');
+  // http://localhost:8080/api/cursos/create --> POST
+  $routes->post('create', 'CursosController::create');
+  // http://localhost:8080/api/cursos/edit/1 --> PUT
+  $routes->put('edit/(:num)', 'CursosController::edit/$1');
+  // http://localhost:8080/api/cursos/1 --> DELETE
+  $routes->delete('delete/(:num)', 'CursosController::delete/$1');
+});
+
+// http://localhost:8080/api/registros
+$routes->group('api/registros', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function ($routes) {
+  // http://localhost:8080/api/registros --> GET
+  $routes->get('', 'RegistrosController::index');
+  // http://localhost:8080/api/registros/1 --> SHOW
+  $routes->get('(:num)', 'RegistrosController::show/$1');
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
