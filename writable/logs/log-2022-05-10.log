@@ -1,0 +1,483 @@
+ERROR - 2022-05-10 17:26:04 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:26:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:26:21 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:26:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:27:19 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:27:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:27:55 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:27:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:28:08 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:28:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:28:37 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:28:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:28:56 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:28:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:29:45 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:29:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:30:44 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:30:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:33:33 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:33:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:34:10 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:34:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:34:38 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:34:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:35:27 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:35:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:35:54 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:35:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:36:49 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:36:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:38:19 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:38:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:38:39 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:38:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:40:50 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:40:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:41:37 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:41:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:42:59 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:42:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-05-10 17:44:44 --> Illegal offset type
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(631): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(stdClass), NULL, 'AND ', NULL)
+#1 D:\codeigniter4\cadadecultura\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where(Object(stdClass))
+#2 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\Model->__call('where', Array)
+#3 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#4 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#8 {main}
+CRITICAL - 2022-05-10 17:45:03 --> Illegal offset type
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(631): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(stdClass), NULL, 'AND ', NULL)
+#1 D:\codeigniter4\cadadecultura\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where(Object(stdClass))
+#2 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\Model->__call('where', Array)
+#3 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#4 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#8 {main}
+CRITICAL - 2022-05-10 17:46:04 --> Illegal offset type
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(631): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(stdClass), NULL, 'AND ', NULL)
+#1 D:\codeigniter4\cadadecultura\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where(Object(stdClass))
+#2 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\Model->__call('where', Array)
+#3 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#4 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#8 {main}
+CRITICAL - 2022-05-10 17:46:42 --> Cannot use object of type stdClass as array
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-10 17:47:02 --> Illegal offset type
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(631): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(stdClass), NULL, 'AND ', NULL)
+#1 D:\codeigniter4\cadadecultura\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where(Object(stdClass))
+#2 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\Model->__call('where', Array)
+#3 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#4 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#8 {main}
+CRITICAL - 2022-05-10 17:47:12 --> Illegal offset type
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(631): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(stdClass), NULL, 'AND ', NULL)
+#1 D:\codeigniter4\cadadecultura\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where(Object(stdClass))
+#2 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\Model->__call('where', Array)
+#3 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#4 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#8 {main}
+CRITICAL - 2022-05-10 17:47:33 --> Cannot use object of type stdClass as array
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-10 17:48:45 --> Cannot use object of type stdClass as array
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-10 17:49:13 --> Cannot use object of type stdClass as array
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-10 17:49:50 --> Cannot use object of type stdClass as array
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-10 17:51:46 --> Cannot use object of type stdClass as array
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+CRITICAL - 2022-05-10 17:52:07 --> Cannot use object of type stdClass as array
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#5 {main}
+ERROR - 2022-05-10 17:52:40 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:52:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:52:56 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:52:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:54:08 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:54:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:55:38 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:55:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:56:48 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:56:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:57:03 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:57:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+ERROR - 2022-05-10 17:59:24 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-10 17:59:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\codeigniter4\cadadecultura\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\codeigniter4\cadadecultura\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\codeigniter4\cadadecultura\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\codeigniter4\cadadecultura\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\codeigniter4\cadadecultura\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-05-10 18:08:02 --> syntax error, unexpected token "=>", expecting ")"
+#0 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\codeigniter4\cadadecultura\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\codeigniter4\cadadecultura\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\codeigniter4\cadadecultura\system\Commands\Server\rewrite.php(43): require_once('D:\\codeigniter4...')
+#4 {main}

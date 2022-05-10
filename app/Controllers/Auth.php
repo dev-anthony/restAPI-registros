@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Controllers\BaseController;
 use App\Models\UsuarioModel;
 use CodeIgniter\API\ResponseTrait;
 use Config\Services;
@@ -36,7 +35,7 @@ class Auth extends BaseController
 
         // return $this->respond('Usuario encontrado', 200);
         $jwt = $this->generateJWT($validateUser);
-        return $this->respond(['Token' => $jwt], 201);
+        return $this->respond(['token' => $jwt], 201);
 
       else :
         return $this->failValidationErrors('Contraseña invalida');
@@ -58,7 +57,7 @@ class Auth extends BaseController
         // 'id' => $user['id'],
         'name' => $user['name'],
         'username' => $user['username'],
-        'rol' => $user['rol_id'],
+        'role' => $user['rol_id'],
       ],
     ];
 

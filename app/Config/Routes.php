@@ -32,11 +32,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->post('/auth/login', 'Auth::login');
+$routes->post('/login', 'Auth::login', ['namespace' => 'App\Controllers', 'filter' => 'cors']);
 
 // Grupo de rutas para roles
 // http://localhost:8080/api/roles
-$routes->group('api/roles', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function ($routes) {
+$routes->group('api/roles', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'cors'], function ($routes) {
   // http://localhost:8080/api/roles --> GET
   $routes->get('', 'RolesController::index');
   // http://localhost:8080/api/roles/1 --> SHOW
@@ -51,7 +51,7 @@ $routes->group('api/roles', ['namespace' => 'App\Controllers\API', 'filter' => '
 
 // crea otro grupo especial para las rutas de alumnos
 // http://localhost:8080/api/alumnos
-$routes->group('api/alumnos', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function ($routes) {
+$routes->group('api/alumnos', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'cors'], function ($routes) {
   // http://localhost:8080/api/alumnos --> GET
   $routes->get('', 'AlumnosController::index');
   // http://localhost:8080/api/alumnos/1 --> SHOW
@@ -65,7 +65,7 @@ $routes->group('api/alumnos', ['namespace' => 'App\Controllers\API', 'filter' =>
 });
 
 // http://localhost:8080/api/usuarios
-$routes->group('api/usuarios', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function ($routes) {
+$routes->group('api/usuarios', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'cors'], function ($routes) {
   // http://localhost:8080/api/usuarios --> GET
   $routes->get('', 'UsuariosController::index');
   // http://localhost:8080/api/usuarios/1 --> SHOW
@@ -79,7 +79,7 @@ $routes->group('api/usuarios', ['namespace' => 'App\Controllers\API', 'filter' =
 });
 
 // http://localhost:8080/api/cursos
-$routes->group('api/cursos', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function ($routes) {
+$routes->group('api/cursos', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'cors'], function ($routes) {
   // http://localhost:8080/api/cursos --> GET
   $routes->get('', 'CursosController::index');
   // http://localhost:8080/api/cursos/1 --> SHOW
@@ -93,7 +93,7 @@ $routes->group('api/cursos', ['namespace' => 'App\Controllers\API', 'filter' => 
 });
 
 // http://localhost:8080/api/registros
-$routes->group('api/registros', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function ($routes) {
+$routes->group('api/registros', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'cors'], function ($routes) {
   // http://localhost:8080/api/registros --> GET
   $routes->get('', 'RegistrosController::index');
   // http://localhost:8080/api/registros/1 --> SHOW
