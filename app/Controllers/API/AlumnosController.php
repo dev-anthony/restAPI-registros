@@ -17,19 +17,8 @@ class AlumnosController extends ResourceController
 
   public function index()
   {
-    try {
-
-      if ($alumno = $this->model->findAll()) {
-        return $this->respond($alumno, 200);
-      } else {
-        return $this->respond([
-          'error' => 'No se encontraron alumnos',
-          "data" => $alumno
-        ]);
-      }
-    } catch (\Exception $e) {
-      return $this->failServerError('Error en el servidor', $e->getMessage());
-    }
+      $alumnos = $this->model->findAll();
+      return $this->respond($alumnos);
   }
 
   public function create()
