@@ -22,7 +22,10 @@ class AlumnosController extends ResourceController
       if ($alumno = $this->model->findAll()) {
         return $this->respond($alumno, 200);
       } else {
-        return $this->failNotFound('No se encontraron alumnos');
+        return $this->respond([
+          'error' => 'No se encontraron alumnos',
+          "data" => $alumno
+        ]);
       }
     } catch (\Exception $e) {
       return $this->failServerError('Error en el servidor', $e->getMessage());

@@ -35,7 +35,11 @@ class Auth extends BaseController
 
         // return $this->respond('Usuario encontrado', 200);
         $jwt = $this->generateJWT($validateUser);
-        return $this->respond(['token' => $jwt], 201);
+        return $this->respond(['token' => $jwt,
+        'name' => $validateUser['name'],
+        'username' => $validateUser['username'],
+        'rol_id' => $validateUser['rol_id'],
+      ]);
 
       else :
         return $this->failValidationErrors('Contraseña invalida');

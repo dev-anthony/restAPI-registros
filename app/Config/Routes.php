@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->post('/login', 'Auth::login', ['namespace' => 'App\Controllers', 'filter' => 'cors']);
+$routes->post('/login', 'Auth::login', ['namespace' => 'App\Controllers']);
 
 // Grupo de rutas para roles
 // http://localhost:8080/api/roles
@@ -51,7 +51,7 @@ $routes->group('api/roles', ['namespace' => 'App\Controllers\API', 'filter' => '
 
 // crea otro grupo especial para las rutas de alumnos
 // http://localhost:8080/api/alumnos
-$routes->group('api/alumnos', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'cors'], function ($routes) {
+$routes->group('api/alumnos', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'filter' => 'cors'], function ($routes) {
   // http://localhost:8080/api/alumnos --> GET
   $routes->get('', 'AlumnosController::index');
   // http://localhost:8080/api/alumnos/1 --> SHOW

@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-25 05:28:00 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\codeigniter\restAPI-registros\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\codeigniter\restAPI-registros\spark(45): require('D:\\codeigniter\\...')
+#2 {main}
+CRITICAL - 2022-05-25 05:28:11 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\codeigniter\restAPI-registros\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\codeigniter\restAPI-registros\spark(45): require('D:\\codeigniter\\...')
+#2 {main}
+CRITICAL - 2022-05-25 05:28:47 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\codeigniter\restAPI-registros\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\codeigniter\restAPI-registros\spark(45): require('D:\\codeigniter\\...')
+#2 {main}
