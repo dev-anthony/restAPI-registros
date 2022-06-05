@@ -28,8 +28,8 @@ CREATE TABLE IF NOT EXISTS alumnos(
   nombre_alumno VARCHAR(150) NOT NULL,
   apellido_p VARCHAR(80) NOT NULL,
   apellido_m VARCHAR(80) NOT NULL,
-  telefono_1 VARCHAR(10) NOT NULL,
-  telefono_2 VARCHAR(10) NOT NULL,
+  telefono_1 VARCHAR(10) NOT NULL UNIQUE,
+  telefono_2 VARCHAR(10) NOT NULL UNIQUE,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
   update_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
   PRIMARY KEY (id_alumno)
@@ -65,4 +65,6 @@ insert into usuarios (name, username, password, rol_id) values ('anthony solano'
 insert into usuarios (name, username, password, rol_id) values ('Erika De La Zeta', 'Ekzetita', '$2y$10$GARfGt0qqIo08fFTXElBLuaoXi3W2OTCAZ6.4DTNs4cPb7kJkZZhW', 2);
 insert into usuarios (name, username, password, rol_id) values ('Brisa Tellos', 'BrisTellos', '$2y$10$GARfGt0qqIo08fFTXElBLuaoXi3W2OTCAZ6.4DTNs4cPb7kJkZZhW', 2);
 
+insert into alumnos (nombre_alumno, apellido_p, apellido_m, telefono_1, telefono_2) values ('Anthony', 'Solano', 'Lopez', '1234567890', '2165498730');
+insert into alumnos (nombre_alumno, apellido_p, apellido_m, telefono_1, telefono_2) values ('Erika', 'De La Zeta', 'Rodriguez', '7896541230', '9876543210');
 -- adios123 = $2y$10$GARfGt0qqIo08fFTXElBLuaoXi3W2OTCAZ6.4DTNs4cPb7kJkZZhW

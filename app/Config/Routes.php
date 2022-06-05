@@ -60,7 +60,7 @@ $routes->group('api/alumnos', ['namespace' => 'App\Controllers\API', 'filter' =>
   $routes->post('create', 'AlumnosController::create');
   // http://localhost:8080/api/alumnos/edit/1 --> PUT
   $routes->put('edit/(:num)', 'AlumnosController::edit/$1');
-  // http://localhost:8080/api/alumnos/1 --> DELETE
+  // http://localhost:8080/api/alumnos/delete/1 --> DELETE
   $routes->delete('delete/(:num)', 'AlumnosController::delete/$1');
 });
 

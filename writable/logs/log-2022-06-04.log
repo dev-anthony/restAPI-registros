@@ -1,0 +1,298 @@
+CRITICAL - 2022-06-04 17:19:31 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\Codeigniter\restAPI-registros\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\Codeigniter\restAPI-registros\spark(45): require('D:\\Codeigniter\\...')
+#2 {main}
+ERROR - 2022-06-04 10:23:23 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:23:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:23:26 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:23:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:23:56 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:23:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:24:01 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:24:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:24:02 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:24:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:24:03 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:24:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:24:03 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:24:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:24:12 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:24:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:25:10 --> Error connecting to the database: Unknown database 'casadecultura'
+CRITICAL - 2022-06-04 10:25:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'casadecultura'
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:37:25 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:37:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:37:36 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:37:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:38:41 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:38:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:38:51 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:38:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:38:56 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:38:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:39:13 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:39:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:39:24 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:39:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:41:04 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:41:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\API\AlumnosController.php(20): CodeIgniter\BaseModel->findAll()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\AlumnosController->index()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AlumnosController))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:41:39 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:41:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:41:43 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:41:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:41:47 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:41:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}
+ERROR - 2022-06-04 10:41:51 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-06-04 10:41:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\Codeigniter\restAPI-registros\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Codeigniter\restAPI-registros\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Codeigniter\restAPI-registros\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Codeigniter\restAPI-registros\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Codeigniter\restAPI-registros\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#10 {main}

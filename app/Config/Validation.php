@@ -87,7 +87,7 @@ class Validation
     ],
     'telefono_1' => [
       'label' => 'Telefono 1',
-      'rules' => 'required|is_unique[alumnos.telefono_1]|min_length[7]|max_length[10]|trim|numeric',
+      'rules' => 'required|is_unique[alumnos.telefono_1]|min_length[10]|max_length[10]|trim|numeric',
       'errors' => [
         'required' => 'El campo telefono es obligatorio',
         'is_unique' => 'El telefono ya existe',
@@ -98,7 +98,7 @@ class Validation
     ],
     'telefono_2' => [
       'label' => 'Telefono 2',
-      'rules' => 'required|is_unique[alumnos.telefono_2]|min_length[7]|max_length[10]|trim|numeric',
+      'rules' => 'required|is_unique[alumnos.telefono_2]|min_length[10]|max_length[10]|trim|numeric',
       'errors' => [
         'required' => 'El campo telefono es obligatorio',
         'is_unique' => 'El telefono ya existe',
