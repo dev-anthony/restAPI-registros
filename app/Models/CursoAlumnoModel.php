@@ -6,10 +6,10 @@ use CodeIgniter\Model;
 
 class CursoAlumnoModel extends Model
 {
-  protected $table = 'cursos_alumnos';
-  protected $primaryKey = 'id_registro';
+  protected $table = 'v_cursos_alumnos';
+  // protected $primaryKey = '';
   protected $returnType = 'array';
-  protected $allowedFields = ['curso_id', 'alumno_id'];
+  protected $allowedFields = ['nombre_alumno', 'apellido_p', 'apellido_m', 'nombre_curso'];
 
   protected $useTimestamps = false;
   protected $createdField  = 'created_at';
