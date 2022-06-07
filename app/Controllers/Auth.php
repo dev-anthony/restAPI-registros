@@ -36,6 +36,7 @@ class Auth extends BaseController
         // return $this->respond('Usuario encontrado', 200);
         $jwt = $this->generateJWT($validateUser);
         return $this->respond(['token' => $jwt,
+        'id_usuario' => $validateUser['id_usuario'],
         'name' => $validateUser['name'],
         'username' => $validateUser['username'],
         'rol_id' => $validateUser['rol_id'],
@@ -58,7 +59,7 @@ class Auth extends BaseController
       'iat' => $time,
       'exp' => time() + (60 * 60 * 24),
       'data' => [
-        // 'id' => $user['id'],
+        'id_usuario' => $user['id_usuario'],
         'name' => $user['name'],
         'username' => $user['username'],
         'role' => $user['rol_id'],
