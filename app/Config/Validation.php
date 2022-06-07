@@ -131,9 +131,8 @@ class Validation
     ],
     'password' => [
       'label' => 'Contraseña',
-      'rules' => 'required|min_length[3]|max_length[100]|trim',
+      'rules' => 'min_length[3]|max_length[100]|trim',
       'errors' => [
-        'required' => 'El campo {field} es requerido',
         'min_length' => 'La {field} debe tener al menos {param} caracteres',
         'max_length' => 'La {field} debe tener como maximo {param} caracteres',
       ],

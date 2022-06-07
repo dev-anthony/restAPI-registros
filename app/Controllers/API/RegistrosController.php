@@ -45,5 +45,12 @@ class RegistrosController extends ResourceController
       return $this->failServerError('Error en el servidor', $e->getMessage());
     }
   }
+
+  public function v_cursos_alumnos ()
+  {
+    $vista_cursos_alumnos = $this->model->v_cursos_alumnos();
+    return $this->respond($vista_cursos_alumnos, 200);
+  }
+
   
 }
