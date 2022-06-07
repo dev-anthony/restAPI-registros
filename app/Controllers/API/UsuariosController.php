@@ -37,7 +37,7 @@ class UsuariosController extends ResourceController
         return $this->respond(
           [
             'msg' => 'El usuario se encontro correctamente',
-            'usuarios' => $id
+            'usuario' => $id
           ],
           200
         );
