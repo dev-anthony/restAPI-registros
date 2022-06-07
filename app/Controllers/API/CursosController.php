@@ -57,7 +57,7 @@ class CursosController extends ResourceController
         return $this->respond([
           'status' => 'success',
           'message' => 'curso encontrado',
-          'data' => $id,
+          'curso' => $id,
         ], 200);
       } else {
         return $this->failNotFound('No se encontró el curso');
@@ -67,7 +67,7 @@ class CursosController extends ResourceController
     }
   }
 
-  public function update($id = null)
+  public function edit($id = null)
   {
     try {
       //code...

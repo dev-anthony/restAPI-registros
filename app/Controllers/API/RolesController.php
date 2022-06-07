@@ -35,13 +35,13 @@ class RolesController extends ResourceController
       $data = $this->request->getJSON(true);
 
       if ($this->validation->run($data, 'rol_validation') == false) {
-        return $this->respond('No se pudo crear el rol', 400);
+        return $this->fail($this->validation->getErrors());
       } else {
 
         $this->model->insert($data);
         return $this->respondCreated([
           'status' => 'created',
-          'message' => 'Rol creado',
+          'message' => 'rol creado',
           'data' => $data,
         ], 201);
       }

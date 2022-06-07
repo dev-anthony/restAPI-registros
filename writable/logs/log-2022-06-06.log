@@ -1,1 +1,42 @@
 ERROR - 2022-06-06 14:58:59 --> Cannot add or update a child row: a foreign key constraint fails (`casadecultura`.`alumnos`, CONSTRAINT `fk_alumnos_cursos` FOREIGN KEY (`curso_id`) REFERENCES `cursos` (`id_curso`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-06-06 19:26:03 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, bool given, called in D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php on line 36
+#0 D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php(36): CodeIgniter\Validation\Validation->run(true, 'curso_validatio...')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\CursosController->create()
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\CursosController))
+#3 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#6 {main}
+CRITICAL - 2022-06-06 19:26:24 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, bool given, called in D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php on line 36
+#0 D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php(36): CodeIgniter\Validation\Validation->run(true, 'curso_validatio...')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\CursosController->create()
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\CursosController))
+#3 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#6 {main}
+CRITICAL - 2022-06-06 19:29:25 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, bool given, called in D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php on line 36
+#0 D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php(36): CodeIgniter\Validation\Validation->run(true, 'curso_validatio...')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\CursosController->create()
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\CursosController))
+#3 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#6 {main}
+CRITICAL - 2022-06-06 19:32:55 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, bool given, called in D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php on line 36
+#0 D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php(36): CodeIgniter\Validation\Validation->run(true, 'curso_validatio...')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\CursosController->create()
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\CursosController))
+#3 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#6 {main}
+CRITICAL - 2022-06-06 19:33:51 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, bool given, called in D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php on line 36
+#0 D:\Codeigniter\restAPI-registros\app\Controllers\API\CursosController.php(36): CodeIgniter\Validation\Validation->run(true, 'curso_validatio...')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): App\Controllers\API\CursosController->create()
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\CursosController))
+#3 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#6 {main}
+ERROR - 2022-06-06 20:56:29 --> Cannot delete or update a parent row: a foreign key constraint fails (`casadecultura`.`usuarios`, CONSTRAINT `fk_usuarios_roles` FOREIGN KEY (`rol_id`) REFERENCES `roles` (`id_rol`))

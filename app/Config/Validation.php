@@ -43,9 +43,9 @@ class Validation
 
   public $rol_validation = [
     // validadcion para rol con errores
-    'type_rol' => [ //Aquí tiene que ir el nombre del campo del que tienes en la base de datos
+    'tipo_rol' => [ //Aquí tiene que ir el nombre del campo del que tienes en la base de datos
       'label' => 'Rol',
-      'rules' => 'required|is_unique[rol.type_rol]',
+      'rules' => 'required|is_unique[roles.tipo_rol]',
       'errors' => [
         'required' => 'El campo {field} es requerido',
         'is_unique' => 'El {field} ya existe',

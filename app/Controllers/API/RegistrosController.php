@@ -35,7 +35,7 @@ class RegistrosController extends ResourceController
       if ($id = $this->model->find($id)) {
         return $this->respond([
           'status' => 'success',
-          'message' => 'registros encontrados',
+          'message' => 'registro encontrado',
           'data' => $id,
         ], 200);
       } else {
@@ -45,4 +45,5 @@ class RegistrosController extends ResourceController
       return $this->failServerError('Error en el servidor', $e->getMessage());
     }
   }
+  
 }
