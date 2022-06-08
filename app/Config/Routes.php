@@ -96,8 +96,8 @@ $routes->group('api/cursos', ['namespace' => 'App\Controllers\API', 'filter' => 
 $routes->group('api/registros', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter', 'filter' => 'cors'], function ($routes) {
   // http://localhost:8080/api/registros --> GET
   $routes->get('', 'RegistrosController::v_cursos_alumnos');
-  // http://localhost:8080/api/registros/1 --> SHOW
-  // $routes->get('(:num)', 'RegistrosController::show/$1');
+  // http://localhost:8080/api/registros/create --> post 
+  $routes->post('create', 'RegistrosController::create');
 });
 
 /*

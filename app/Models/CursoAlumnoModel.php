@@ -6,19 +6,18 @@ use CodeIgniter\Model;
 
 class CursoAlumnoModel extends Model
 {
-  protected $table = 'v_cursos_alumnos';
-  protected $primaryKey = 'id_curso';
+  protected $table = 'cursos_alumnos';
+  protected $primaryKey = 'id_alumno';
   protected $returnType = 'array';
-  protected $allowedFields = ['alumno_id', 'curso_id'];
+  protected $allowedFields = ['id_alumno', 'id_curso'];
 
-  protected $useTimestamps = false;
-  protected $createdField  = 'created_at';
-  protected $updatedField  = 'updated_at';
 
+  /**
+   * *esta es una vista y muestra en el frontend
+   */
   public function v_cursos_alumnos ()
   {
     $view = $this->db->table('v_cursos_alumnos')->get()->getResultArray();
-
     return $view;
   }
 }

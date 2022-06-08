@@ -177,4 +177,43 @@ class Validation
       ],
     ],
   ];
+
+  public $curso_alumno_validation = [
+    'nombre_curso' => [
+      'label' => 'Nombre',
+      'rules' => 'required|min_length[3]|max_length[100]|trim',
+      'errors' => [
+        'required' => 'El campo {field} es requerido',
+        'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
+        'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
+      ],
+    ],
+    'nombre_alumnos' => [
+      'label' => 'Nombre',
+      'rules' => 'required|min_length[3]|max_length[100]|trim',
+      'errors' => [
+        'required' => 'El campo {field} es requerido',
+        'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
+        'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
+      ],
+    ],
+    'apellido_p' => [
+      'label' => 'Apellido paterno',
+      'rules' => 'required|min_length[3]|max_length[100]|trim',
+      'errors' => [
+        'required' => 'El campo {field} es requerido',
+        'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
+        'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
+      ],
+    ],
+    'apellido_m' => [
+      'label' => 'Apellido materno',
+      'rules' => 'required|min_length[3]|max_length[100]|trim',
+      'errors' => [
+        'required' => 'El campo {field} es requerido',
+        'min_length' => 'El campo {field} debe tener al menos {param} caracteres',
+        'max_length' => 'El campo {field} debe tener como maximo {param} caracteres',
+      ],
+    ],
+  ];
 }

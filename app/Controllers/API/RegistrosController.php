@@ -46,6 +46,41 @@ class RegistrosController extends ResourceController
     }
   }
 
+  public function create ()
+  {
+    // try {
+    //   $data = $this->request->getJSON(true);
+
+    //   if ($this->validation->run($data) == false) {
+    //     return $this->fail($this->validation->getErrors());
+    //   } else {
+
+    //     $this->model->insert($data);
+    //     return $this->respondCreated([
+    //       'status' => 'created',
+    //       'message' => 'se registro correctamente el alumno en el curso',
+    //       'data' => $data,
+    //     ], 201);
+    //   }
+    // } catch (\Exception $e) {
+    //   return $this->failServerError('Error en el servidor', $e->getMessage());
+    // }
+
+    try{
+      $data = $this->request->getJSON();
+      if($this->model->insert($data)):
+        $data->id = $this->model->insertID();
+        return $this->respondCreated($data);
+      else:
+         return $this->failValidationErrors($this->model->validation->listErrors());
+      endif;
+
+  }catch(\Exception $e){
+      return $this->failServerError($e,'Error al crear el rol');
+  }
+
+  }
+
   public function v_cursos_alumnos ()
   {
     $vista_cursos_alumnos = $this->model->v_cursos_alumnos();

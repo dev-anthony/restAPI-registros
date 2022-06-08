@@ -47,22 +47,18 @@ CREATE TABLE IF NOT EXISTS alumnos(
 );
 
 CREATE TABLE IF NOT EXISTS cursos_alumnos (
-  id_curso_alumno INT AUTO_INCREMENT NOT NULL,
-  alumno_id int not null,
-  curso_id int not null,
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-  update_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-  PRIMARY KEY (id_curso_alumno, alumno_id, curso_id),
-  CONSTRAINT fk_cursos_alumnos_alumnos FOREIGN KEY (alumno_id) REFERENCES alumnos(id_alumno) ON DELETE CASCADE ON UPDATE CASCADE, 
-  CONSTRAINT fk_cursos_alumnos_cursos FOREIGN KEY (curso_id) REFERENCES cursos(id_curso) ON DELETE CASCADE ON UPDATE NO ACTION
+  id_alumno int not null,
+  id_curso int not null,
+  CONSTRAINT fk_cursos_alumnos_alumnos FOREIGN KEY (id_alumno) REFERENCES alumnos(id_alumno) ON DELETE CASCADE ON UPDATE CASCADE, 
+  CONSTRAINT fk_cursos_alumnos_cursos FOREIGN KEY (id_curso) REFERENCES cursos(id_curso) ON DELETE CASCADE ON UPDATE NO ACTION
 );
 
 -- vista de la tabla cursos con la de alumnos
 CREATE VIEW v_cursos_alumnos AS
 SELECT c.id_curso, c.nombre_curso, c.descripsion, c.hora_inicio, c.hora_fin, a.id_alumno, a.nombre_alumno, a.apellido_p, a.apellido_m, a.telefono_1, a.telefono_2
 FROM cursos c
-INNER JOIN cursos_alumnos ca ON c.id_curso = ca.curso_id
-INNER JOIN alumnos a ON ca.alumno_id = a.id_alumno;
+INNER JOIN cursos_alumnos ca ON c.id_curso = ca.id_curso
+INNER JOIN alumnos a ON ca.id_alumno = a.id_alumno;
 -- fin de la vista de la tabla cursos con la de alumnos
 
 insert into roles (tipo_rol) values ('admin');
