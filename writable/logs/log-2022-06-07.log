@@ -47,3 +47,53 @@ CRITICAL - 2022-06-07 17:25:15 --> Call to a member function insert() on null
 #3 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
 #5 {main}
+CRITICAL - 2022-06-07 21:11:59 --> Cannot use object of type stdClass as array
+#0 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): APP\Controllers\API\UsuariosController->edit('3')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(APP\Controllers\API\UsuariosController))
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#5 {main}
+CRITICAL - 2022-06-07 21:12:17 --> Cannot use object of type stdClass as array
+#0 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): APP\Controllers\API\UsuariosController->edit('3')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(APP\Controllers\API\UsuariosController))
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#5 {main}
+CRITICAL - 2022-06-07 21:12:26 --> Cannot use object of type stdClass as array
+#0 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): APP\Controllers\API\UsuariosController->edit('3')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(APP\Controllers\API\UsuariosController))
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#5 {main}
+CRITICAL - 2022-06-07 21:14:00 --> Cannot use object of type stdClass as array
+#0 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): APP\Controllers\API\UsuariosController->edit('3')
+#1 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(APP\Controllers\API\UsuariosController))
+#2 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#5 {main}
+ERROR - 2022-06-07 21:18:39 --> Table 'casadecultura.user' doesn't exist
+CRITICAL - 2022-06-07 21:18:39 --> Call to a member function getRow() on bool
+#0 D:\Codeigniter\restAPI-registros\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('BrisTellos', 'username', Array, NULL)
+#1 D:\Codeigniter\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'Usuario', 'BrisTellos', Array, Array)
+#2 D:\Codeigniter\restAPI-registros\app\Controllers\API\UsuariosController.php(86): CodeIgniter\Validation\Validation->run(Array, 'usuario_validat...')
+#3 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): APP\Controllers\API\UsuariosController->edit('3')
+#4 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(APP\Controllers\API\UsuariosController))
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#8 {main}
+ERROR - 2022-06-07 21:19:00 --> Table 'casadecultura.user' doesn't exist
+CRITICAL - 2022-06-07 21:19:01 --> Call to a member function getRow() on bool
+#0 D:\Codeigniter\restAPI-registros\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('BrisTellos', 'username', Array, NULL)
+#1 D:\Codeigniter\restAPI-registros\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'Usuario', 'BrisTellos', Array, Array)
+#2 D:\Codeigniter\restAPI-registros\app\Controllers\API\UsuariosController.php(86): CodeIgniter\Validation\Validation->run(Array, 'usuario_validat...')
+#3 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(825): APP\Controllers\API\UsuariosController->edit('3')
+#4 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(APP\Controllers\API\UsuariosController))
+#5 D:\Codeigniter\restAPI-registros\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Codeigniter\restAPI-registros\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Codeigniter\restAPI-registros\system\Commands\Server\rewrite.php(43): require_once('D:\\Codeigniter\\...')
+#8 {main}

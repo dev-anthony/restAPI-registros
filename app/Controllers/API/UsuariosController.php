@@ -78,43 +78,69 @@ class UsuariosController extends ResourceController
 
   public function edit($id = null)
   {
+    $data = $this->request->getJSON(true);
+    $data['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
+
     try {
       //code...
-      if ($id == null) {
+      if ($id = $this->model->find($id)) {
+        $this->model->update($id, $data);
         return $this->respond(
-          ['error' => 'No se puede editar el usuario'],
-          500
+          [
+            'msg' => 'El usuario se actualizo correctamente',
+            'usuario' => $data
+          ],
+          200
         );
       } else {
-        $user = $this->model->find($id);
-        if ($user) {
-          $user = $this->request->getJSON();
-          if ($this->model->update($id, $user)) {
-            return $this->respond(
-              [
-                'msg' => 'El usuario se edito correctamente',
-                'usuario' => $user
-              ],
-              200
-            );
-          } else {
-            return $this->respond(
-              ['error' => 'No se puede editar el usuario'],
-              500
-            );
-          }
-        } else {
-          return $this->respond(
-            ['error' => 'El usuario no existe!!'],
-            500
-          );
-        }
+        return $this->respond(
+          ['error' => 'No se puede encontrar el usuario'],
+          500
+        );
       }
     } catch (\Exception $e) {
-      //Exception $e;
       return $this->failServerError('Error en el servidor', $e->getMessage());
     }
+
   }
+
+    // try {
+    //   //code...
+    //   if ($id == null) {
+    //     return $this->respond(
+    //       ['error' => 'No se puede editar el usuario'],
+    //       500
+    //     );
+    //   } else {
+    //     $user = $this->model->find($id);
+    //     if ($user) {
+    //       $user = $this->request->getJSON();
+    //       if ($this->model->update($id, $user)) {
+    //         return $this->respond(
+    //           [
+    //             'msg' => 'El usuario se edito correctamente',
+    //             'usuario' => $user
+    //           ],
+    //           200
+    //         );
+    //       } else {
+    //         return $this->respond(
+    //           ['error' => 'No se puede editar el usuario'],
+    //           500
+    //         );
+    //       }
+    //     } else {
+    //       return $this->respond(
+    //         ['error' => 'El usuario no existe!!'],
+    //         500
+    //       );
+    //     }
+    //   }
+    // } catch (\Exception $e) {
+    //   //Exception $e;
+    //   return $this->failServerError('Error en el servidor', $e->getMessage());
+    // }
+  // }
 
   public function delete($id = null)
   {
